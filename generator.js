@@ -237,10 +237,10 @@ function shareKakao() {
     content: {
       title: "가청 주파수 테스트", // 보여질 제목
       description: "내 가청범위를 테스트 및 음향 장비 테스트를 위해 사용하세요.", // 보여질 설명
-      imageUrl: "https://frequecny.netlify.app", // 콘텐츠 URL
+      imageUrl: "https://frequecny.netlify.app/", // 콘텐츠 URL
       link: {
-         mobileWebUrl: "https://frequecny.netlify.app",
-         webUrl: "https://frequecny.netlify.app"
+         mobileWebUrl: "https://frequecny.netlify.app/",
+         webUrl: "https://frequecny.netlify.app/"
       }
     }
   });
