@@ -216,12 +216,12 @@ document.getElementById("auto_increment").onchange = toggleAutoIncrement;
 // share
 function shareTwitter() {
   var sendText = "복권번호생성기"; // 전달할 텍스트
-  var sendUrl = "https://lotto-generate.netlify.app/"; // 전달할 URL
+  var sendUrl = "https://frequecny.netlify.app/"; // 전달할 URL
   window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
 }
 
 function shareFacebook() {
-  var sendUrl = "https://lotto-generate.netlify.app/"; // 전달할 URL
+  var sendUrl = "https://frequecny.netlify.app/"; // 전달할 URL
   window.open("http://www.facebook.com/sharer/sharer.php?u=" + sendUrl);
 }
 
@@ -237,17 +237,17 @@ function shareKakao() {
     content: {
       title: "가청 주파수 테스트", // 보여질 제목
       description: "내 가청범위를 테스트 및 음향 장비 테스트를 위해 사용하세요.", // 보여질 설명
-      imageUrl: "https://lotto-generate.netlify.app/", // 콘텐츠 URL
+      imageUrl: "https://frequecny.netlify.app/", // 콘텐츠 URL
       link: {
-         mobileWebUrl: "https://lotto-generate.netlify.app/",
-         webUrl: "https://lotto-generate.netlify.app/"
+         mobileWebUrl: "https://frequecny.netlify.app/",
+         webUrl: "https://frequecny.netlify.app/"
       }
     }
   });
 }
 
 function shareNaver() {
-  let url = "https://frequency-generate.netlify.app/";
+  let url = "https://frequecny.netlify.app/";
   let title = "가청 주파수 테스트";
   let shareURL = "https://share.naver.com/web/shareView?url=" + url + "&title=" + title;
   document.location = shareURL;
