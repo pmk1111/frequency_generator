@@ -215,7 +215,7 @@ document.getElementById("auto_increment").onchange = toggleAutoIncrement;
 
 // share
 function shareTwitter() {
-  var sendText = "복권번호생성기"; // 전달할 텍스트
+  var sendText = "가청 주파수 테스트"; // 전달할 텍스트
   var sendUrl = "https://frequecny.netlify.app/"; // 전달할 URL
   window.open("https://twitter.com/intent/tweet?text=" + sendText + "&url=" + sendUrl);
 }
