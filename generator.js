@@ -4,6 +4,9 @@ const nav = document.querySelector("nav");
 const toggleList = document.querySelectorAll(".toggleSwitch");
 const toggleImg = document.querySelector(".display_mode_icon");
 
+const menuBtn = document.querySelector(".menu_btn");
+const menu = document.querySelector(".menu");
+
 const waveLabels = document.querySelectorAll(".custom-radio + label");
 const range = document.querySelector("#bar_frequency");
 const frequencyInput = document.querySelector("#span_frequency");
@@ -30,6 +33,9 @@ toggleList.forEach(($toggle) => {
       toggleImg.setAttribute("src", "images/sun.png");
       body.classList.remove("dark");
       body.classList.add("lite");
+
+      menuBtn.classList.remove("menu_btn_dark");
+      menu.classList.remove("menu_dark");
 
       nav.classList.remove("nav_dark");
 
@@ -59,6 +65,8 @@ toggleList.forEach(($toggle) => {
       body.classList.add("dark");
 
       nav.classList.add("nav_dark");
+      menuBtn.classList.add("menu_btn_dark");
+      menu.classList.add("menu_dark");
 
       for (let label of waveLabels) {
         label.classList.add("label_dark");
