@@ -616,3 +616,27 @@ footer h4{
   }
 
 }
+.frequency_text{
+  margin-bottom: 5px;
+  display: none;
+}
+@media screen  and (max-width: 426px){
+  .container{
+    width: 300px;
+  }
+  #bar_frequency{
+    width: 300px;
+  }
+  .frequency_bar_wrap{
+    flex-direction: column;
+  }
+  .frequency_bar_wrap label{
+    display: none;
+  }
+  .frequency_text{
+    display: block;
+  }
+  .how_to_use{
+    width: 300px;
+  }
+}
